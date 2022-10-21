@@ -2,4 +2,10 @@ token:
   secret: '{cipher}AQBotv+nPTFDvIWL8PT7rifPZx8Xk3ELgZbj9GbptXqJiLF3aby2t5cCdcIekRnwmkDpFbCz5T+WazzItrJE/Jts32GmZLKIpxP+aJPkE0pkcWy/jKBETYtcGR0dRoSN5vR39WfsBpxwoT+JmCQhcb+/uiRshp3vpBz7kOod2Q2oLHwzZpb/Bn3vKza+EO/FGRaHWkrhRzpovaREp0JPlQpzmYXJSVy0HZdkg2mbTjHabZy+if7d4p17WlsTOQRiJv0ZmB7YN8EkMwqVDpYuzKDln4ue75Nsc7rFaHiwLHPiHnpBMpVWCCKmi0gVjXs4FwMqRuf3aybK4Pto4dpLSrkujQ7TzpzGo2i1GBGbiojmAczIbedMtUzgcC/Qv4gHokk='
   expir: 864000000000
 order-service:
-  url: http://localhost:8000/order-service/%s/orders
+  url: http://order-service/%s/orders
+spring:
+    h2:
+    console:
+      enabled: true
+      settings:
+        web-allow-others: true
