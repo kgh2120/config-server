@@ -1,0 +1,3 @@
+token:
+  secret: secret_prod
+  expir: 864000000000
