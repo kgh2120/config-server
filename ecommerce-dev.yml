@@ -1,3 +1,3 @@
 token:
-  secret: secret_dev_change
+  secret: '{cipher}d231cd1598959910cc44f51c1694c2e1fd6cda82052d86bc65824c050e850608'
   expir: 864000000000
